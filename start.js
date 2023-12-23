@@ -2,7 +2,6 @@ const dotenv = require("dotenv");
 const next = require("next");
 
 const envFilePath = process.argv[2];
-console.log(envFilePath);
 if (envFilePath) {
   dotenv.config({ path: envFilePath });
 } else {

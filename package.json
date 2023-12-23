@@ -4,10 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "devlocal": "cross-env ENV_FILE_PATH=/path/to/env node start.js ",
     "build": "next build",
     "start": "next start",
-    "start_prod": "NODE_ENV=PROD node start.js",
     "lint": "next lint"
   },
   "dependencies": {
@@ -15,8 +13,5 @@
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
-  },
-  "devDependencies": {
-    "cross-env": "^7.0.3"
   }
 }
