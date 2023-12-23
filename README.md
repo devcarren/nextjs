@@ -10,4 +10,6 @@ node start.js /DEV/nextjs/sample-next-app/config/.env.properties
 #for prod
 NODE_ENV=production node start.js /home/admin/nextjs/sample-app/config/.env.properties
 
+#using PM2
+pm2 start pm2.config.js
 ```
