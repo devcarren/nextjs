@@ -1,4 +1,3 @@
-//place this file in the parent of the app-folder directory and run it using the command pm2 start pm2.config.js
 module.exports = {
   apps: [
     {
