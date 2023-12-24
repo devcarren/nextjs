@@ -11,5 +11,6 @@ node start.js /DEV/nextjs/sample-next-app/config/.env.properties
 NODE_ENV=production node start.js /home/admin/nextjs/sample-app/config/.env.properties
 
 #using PM2
+#start this command on one folder on top of application folder
 pm2 start pm2.config.js
 ```
